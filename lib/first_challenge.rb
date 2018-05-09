@@ -22,6 +22,7 @@ contacts.each do |person,data|
     if attribute == :favorite_icecream_flavors
       value.each {|flavor|
            if contacts[person][attribute][flavors] == "strawberry"
+             puts "strawberry"
            binding.pry
         }
     end
