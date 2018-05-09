@@ -24,6 +24,7 @@ contacts.each do |person,data|
            if contacts[person][attribute][flavors] == "strawberry"
              puts "strawberry"
            binding.pry
+         end
         }
     end
   end
