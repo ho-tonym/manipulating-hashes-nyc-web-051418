@@ -20,7 +20,7 @@ contacts.each do |person,data|
       value.each {|flavor|
           puts "d"
         }
-    }
+    
     end
   end
 end
