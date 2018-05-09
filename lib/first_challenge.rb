@@ -19,7 +19,8 @@ contacts.each do |person,data|
     if attribute == :favorite_icecream_flavors
       value.each {|flavor|
         if flavor == "strawberry"
-        attribute.delete_at(attribute[flavor])
+          attribute.delete_at(attribute[flavor])
+        end
         }
     }
     end
