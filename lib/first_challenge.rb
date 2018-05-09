@@ -20,15 +20,12 @@ contacts.each do |person,data|
     if attribute == :favorite_icecream_flavors
       value.each {|flavor|
            if flavor == "strawberry"
-             :favorite_icecream_flavors(flavor).delete
+             attribute.delete(flavor)
            end
         }
-
     end
   end
-
 end
-
   #remember to return your newly altered contacts hash!
   contacts
 end
