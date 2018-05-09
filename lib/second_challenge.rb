@@ -12,6 +12,5 @@ def second_challenge
   return groceries.values
 
 
-  end
 
 end
